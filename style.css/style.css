@@ -3,7 +3,61 @@
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 900;
+    font-weight: 400;
     font-style: normal;
+    color: white;
     font-variation-settings:"slnt" 0;
-  }
+}
+.full-bg-color{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display-flex{
+    display: flex;
+}
+/* navbar css style */
+
+.navbar{
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 28px;
+}
+
+.fitness{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 800;
+    /* border: 2px solid red; */
+}
+/* navbar home style */
+.navbar-home{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 60px;
+}
+.navbar-home button{
+    padding: 12px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 60px;
+    margin: 2px;
+    margin-left: 40px;
+}
+.navbar-home #home{
+    background-color: #E6533C;
+    border-radius: 60px;
+    font-weight: bold;
+    margin-left: 2px;
+    padding: 10px 25px;
+}
+.nav-hamburger-menu{
+    display: none;
+}
