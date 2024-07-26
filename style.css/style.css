@@ -8,6 +8,8 @@
     color: white;
     font-variation-settings:"slnt" 0;
 }
+
+
 .full-bg-color{
     background-color: black;
 }
@@ -19,6 +21,14 @@
 .display-flex{
     display: flex;
 }
+.nav-banner{
+    /* border: 2px solid red; */
+    max-height: 715px;
+}
+/* font color */
+.font-p-gray{
+    color: #FFFFFF80;
+}
 /* navbar css style */
 
 .navbar{
@@ -26,7 +36,8 @@
     justify-content: space-between;
     max-width: 80%;
     margin: 0 auto;
-    padding: 28px;
+    /* padding: 28px; */
+    margin-top: 28px;
 }
 
 .fitness{
@@ -60,4 +71,94 @@
 }
 .nav-hamburger-menu{
     display: none;
+}
+/* banner-1 style css */
+.banner-1{
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    /* padding: 28px; */
+    margin-top: 96px;
+    max-height: 500px;
+}
+.banner-1-text{
+    /* border: 2px solid red; */
+    max-width: 60%;
+}
+.banner-1-text h1{
+    font-size: 4.8rem;
+    margin-bottom: 28px;
+}
+.banner-1-text button{
+    margin-top: 28px;
+}
+#join{
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 60px;
+}
+#download{
+    margin-left: 8px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    border: solid 1px #FFFFFF;
+    font-size: 1.1rem;
+    border-radius: 60px;
+}
+.image-site img{
+    margin-top: -85px;
+    /* border: 2px solid red; */
+}
+
+.button-blr{
+ box-sizing: border-box;
+ border: 1px solid rgba(255, 255, 255, 0.1);
+ border-radius: 12px;
+ backdrop-filter: blur(20px);
+ background-color: rgba(48, 48, 48, 0.54);
+ max-width: 50%;
+ align-items: center;
+ padding: 20px;
+ /* gap: 10px; */
+ margin-top: -200px;
+ margin-left: -100px;
+}
+.red-dot{
+    background-color: rgb(230, 83, 60);
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.btn-txt{
+    /* border: 2px solid red; */
+    text-align: left;
+    margin-left: 10px;
+}
+.btn-txt h2{
+    font-size: 1.5rem;
+}
+.button-blr-1{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(48, 48, 48, 0.54);
+    max-width: 60%;
+    align-items: center;
+    padding: 10px;
+    /* gap: 10px; */
+    margin-left: 230px;
+    margin-top: -350px;
+}
+.button-blr-1 h2{
+    font-size: 2.5rem;
 }
