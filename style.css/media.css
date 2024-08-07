@@ -8,5 +8,48 @@
     }
     .navbar{
         max-width: 100%;
+        margin: 20px;
+    }
+    .banner-1{
+        flex-direction: column;
+        margin: 20px;
+        max-width: 100%;
+    }
+    .banner-1-text{
+        max-width: 100%;
+    }
+    /* .banner-1-text , .image-site{
+        wi;
+    } */
+    /* .image-site{
+        order: 2;
+    } */
+    .banner-1-text h1 {
+        font-size: 2.4rem;
+    }
+    .banner-1-text p{
+        margin-bottom: 14px;
+    }
+    .media-btn{
+        max-width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+    .banner-1-text button{
+        width: 80%;
+    }
+    .image-site{
+        margin-top: 30px;
+        /* order: 2;
+        justify-content: center;
+        align-items: center; */
+    }
+    .image-site img{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .button-blr{
+        margin-left: 20px;
     }
 }
