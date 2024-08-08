@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px){
+    /* navbar resposive */
     .nav-hamburger-menu{
         display: block;
         margin-top: 15px;
@@ -10,6 +11,7 @@
         max-width: 100%;
         margin: 20px;
     }
+    /* banner-1 responsive */
     .banner-1{
         flex-direction: column;
         margin: 20px;
@@ -22,7 +24,7 @@
         wi;
     } */
     /* .image-site{
-        order: 2;
+       
     } */
     .banner-1-text h1 {
         font-size: 2.4rem;
@@ -40,9 +42,8 @@
     }
     .image-site{
         margin-top: 30px;
-        /* order: 2;
         justify-content: center;
-        align-items: center; */
+        align-items: center;
     }
     .image-site img{
         max-width: 80%;
@@ -51,5 +52,24 @@
     }
     .button-blr{
         margin-left: 20px;
+    }
+    /* banner-2 responsive */
+    .banner-2-text{
+        margin-top: 380px;
+    }
+    .banner-2-text h1{
+        font-size: 2rem;
+    }
+    .img-with-txt-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    /* banner-3 responsive */
+    .banner-3{
+        display: grid;
+    }
+    .banner-3-text h1{
+        font-size: 2rem;
     }
 }

@@ -97,7 +97,7 @@
 .banner-1-text button{
     margin-top: 28px;
 }
-#join{
+.join{
     padding: 8px;
     padding-left: 20px;
     padding-right: 20px;
@@ -174,7 +174,8 @@
     text-align: center;
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 230px;
+    margin-bottom: 50px;
 }
 .banner-2-text h1{
     font-size: 3rem;
@@ -186,7 +187,9 @@
 /* banner-2 img with txt css style */
 .img-with-txt-box{
     /* border: 2px solid red; */
-    margin-top: 58px;
+    /* margin-top: 500px; */
+    max-width: 80%;
+    margin: 0 auto;
 }
 .img-with-txt{
     /* border: 2px solid blue; */
@@ -206,4 +209,47 @@
     margin-top: 8px;
     color: #FFFFFF80;
     font-size: 0.88rem;
+}
+/* banner-3 css style */
+.banner-3{
+    /* border: 2px solid red; */
+    background-color: #222222;
+    border-radius: 18px;
+    margin-top: 40px;
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 100px;
+}
+.banner-3-text{
+    /* max-width: 50%; */
+    margin-left: 54px;
+    /* border: 2px solid red; */
+}
+.banner-3-text h1{
+    margin-top: 41px;
+    font-size: 3rem;
+}
+.banner-3-text p{
+    margin-top: 14px;
+}
+.banner-3-text button{
+    margin-top: 34px;
+}
+.banner-3-img{
+    /* border: 2px solid red; */
+    /* max-width: 80%; */
+    margin-left: 100;
+    padding: 30px;
+}
+.banner-3 img{
+    /* border: 2px solid blue; */
+    border-radius: 18px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    object-position: left;
+    /* margin: 0 auto;
+    margin: 30px; */
+    /* /* margin-left: 0; */
 }
