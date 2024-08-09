@@ -253,3 +253,84 @@
     margin: 30px; */
     /* /* margin-left: 0; */
 }
+/* banner-4 bmi banner */
+.banner-4-BMI{
+    /* border: 2px solid red; */
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.banner-4-BMI p{
+    margin-top: 14px;
+}
+
+/* banner-4-BMI-Calcu */
+.banner-4-BMI-Calcu{
+    gap: 200px;
+    background-color: #222222;
+    margin-top: 88px;
+    padding: 20px 200px;
+    max-width: 100%;
+}
+.chart{
+    /* border: 2px solid red; */
+    max-width: 50%;
+}
+.calculate{
+    /* border: 2px solid red; */
+    max-width: 50%;
+}
+/* bmi chart */
+.chart-1{
+    margin-top: 52px;
+}
+.bmi-chart{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.bmi-chart th, .bmi-chart td{
+    border: 1px solid #FFFFFF80;
+    padding: 10px;
+    /* text-align: center; */
+    text-align: left;
+    color: white;
+}
+.bmi-chart th{
+    /* background-color: #E6533C; */
+    color: #FFFFFF80;
+    font-weight: normal;
+}
+.bmi-chart td{
+    background-color: #222222;
+}
+/* bmi calculate */
+.calculate p{
+    margin-top: 14px;
+}
+.bmi-cal-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+    /* border: 2px solid red; */
+}
+.bmi-cal-box select:last-child{
+    grid-column: span 2;
+    width: 100%;
+}
+.bmi-cal{
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+}
+.bmi-cal::placeholder{
+    color: #bbb;
+}
+.calculate button{
+    margin-top: 34px;
+}

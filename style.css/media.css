@@ -72,4 +72,42 @@
     .banner-3-text h1{
         font-size: 2rem;
     }
+    .banner-4-BMI h1{
+        font-size: 1.75rem;
+    }
+    .banner-4-BMI p{
+        font-size: 0.87rem;
+    }
+    /* banner-4 calcu */
+    .banner-4-BMI-Calcu{
+        padding: 40px;
+        display: grid;
+        gap: 0;
+    }
+    .chart{
+        max-width: 80%;
+    }
+    .chart h1{
+        font-size: 1rem;
+    }
+    /* calculate */
+    .calculate{
+        margin-top: 20px;
+        max-width: 80%;
+        /* border: 2px solid red; */
+    }
+    .calculate h1{
+        font-size: 1rem;
+    }
+    .bmi-cal-box{
+        grid-template-columns: 1fr,fr;
+        gap: 15px;
+    }
+    .bmi-cal{
+        width: 100%;
+    }
+    .bmi-cal-box select:last-child{
+        grid-template-columns: span 2;
+        width: 100%;
+    }
 }
