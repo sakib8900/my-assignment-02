@@ -110,4 +110,12 @@
         grid-template-columns: span 2;
         width: 100%;
     }
+    /* banner-5-meet */
+    .banner-5-meet h1{
+        font-size: 2rem;
+        color: red;
+    }
+    .trainer-info-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
