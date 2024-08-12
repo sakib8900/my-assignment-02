@@ -68,9 +68,15 @@
     /* banner-3 responsive */
     .banner-3{
         display: grid;
+        gap: 20px;
     }
     .banner-3-text h1{
         font-size: 2rem;
+    }
+    /* banner-4 */
+    .banner-4-BMI{
+        margin-left: 50px;
+        margin-top: 20px;
     }
     .banner-4-BMI h1{
         font-size: 1.75rem;
@@ -80,6 +86,7 @@
     }
     /* banner-4 calcu */
     .banner-4-BMI-Calcu{
+        margin-top: 20px;
         padding: 40px;
         display: grid;
         gap: 0;
@@ -113,9 +120,17 @@
     /* banner-5-meet */
     .banner-5-meet h1{
         font-size: 2rem;
-        color: red;
+        /* color: red; */
     }
     .trainer-info-img{
         grid-template-columns: repeat(1, 1fr);
+    }
+    /* banner-6 css */
+    .banner-6{
+        padding: 40px;
+    }
+    .banner-6-1{
+        display: grid;
+        gap: 20px;
     }
 }
