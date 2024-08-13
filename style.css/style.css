@@ -27,7 +27,11 @@
 }
 .nav-banner{
     /* border: 2px solid red; */
-    max-height: 715px;
+    max-width: 100%;
+    background:linear-gradient(180deg,black,#353435, black);
+    /* background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
 }
 /* font color */
 .font-p-gray{
@@ -84,7 +88,7 @@
     margin: 0 auto;
     /* padding: 28px; */
     margin-top: 96px;
-    max-height: 500px;
+    /* max-height: 500px; */
 }
 .banner-1-text{
     /* border: 2px solid red; */
@@ -96,6 +100,9 @@
 }
 .banner-1-text button{
     margin-top: 28px;
+}
+.media-btn{
+    margin-bottom: 70px;
 }
 .join{
     padding: 8px;

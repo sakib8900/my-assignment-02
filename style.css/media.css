@@ -41,9 +41,11 @@
         width: 80%;
     }
     .image-site{
-        margin-top: 30px;
+        margin-top: -30px;
         justify-content: center;
         align-items: center;
+        height: 349px;
+
     }
     .image-site img{
         max-width: 80%;
